@@ -69,6 +69,7 @@ else:
 
 
 # Example 4
+# noinspection PyBroadException
 try:
     reordered_string = '%.2f = %-10s' % (key, value)
 except:
@@ -254,6 +255,7 @@ assert old_formatted == new_formatted
 
 
 # Example 23
+print("Ex23")
 key = 'my_var'
 value = 1.234
 
